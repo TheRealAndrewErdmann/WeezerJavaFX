@@ -1,0 +1,20 @@
+Electric Missles - Make electric missles
+
+Role		Particpants
+
+Product Owner		Atticus Finch  
+Scrum Master		Atticus Madden  
+Developer		Jeff Goldblum  
+
+Columns		Tasks
+
+To Do		Initialize super algorithm to detonate at warp speed - Avoid civllians Jeff! posted by Atticus Madden
+
+Doing		Curve the metal to make a cylindrical shape - Not cyclindrical enough. posted by Jeff Goldblum
+What's a cylinder? posted by Atticus Finch
+
+Complete		
+Abandoned		Make impossible burger possible - 
+
+Comments
+

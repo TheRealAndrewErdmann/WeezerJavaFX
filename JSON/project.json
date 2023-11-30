@@ -1,0 +1,69 @@
+[
+    {
+        "id": "e99d712a-9ecf-4423-b5a0-6396ee821872",
+        "title": "Chat Bot",
+        "description": "Develop a chat bot to answer users' questions and guide them around the website",
+        "participants": [{
+            "role": "Scrum master",
+            "user": "1705d671-8135-4e85-aa71-ba463dd9e881"
+        },
+        
+        {
+            "role": "Developer",
+            "user": "23979fce-f352-48fc-8d29-099c788596f6"
+        }],
+        "columns": [{
+           "columnName": "Backlog",
+           "task": [{
+                "id": "04d33899-4024-4cef-9129-6d41c503f304",
+                "taskName": "Link to new tab",
+                "taskDescription": "Get the bot to include links in their responses when appropriate",
+                "category": "Feature",
+                "priority": "Low",
+                "comments": [{
+                    "author": "1705d671-8135-4e85-aa71-ba463dd9e881",
+                    "comment": "The link should be separated from the rest of the text for readability.",
+                    "replies": []
+                }],
+                "changes": []
+           }],
+           "status": "Incomplete"
+        },
+
+        {
+            "columnName": "In Progress",
+            "task": [{
+                "id": "5d879225-9dd8-4ec7-9cde-5681857b1e61",
+                "taskName": "Respond to user input",
+                "taskDescription": "Get the bot to respond to users' questions",
+                "category": "Feature",
+                "priority": "High",
+                "comments": [],
+                "changes": []
+            }],
+            "status": "Incomplete"
+        },
+        
+        {
+            "columnName": "Complete",
+            "task": [{
+                "id": "4dd4ca16-5a27-4c35-8da2-52d84901a087",
+                "taskName": "Read user input",
+                "taskDescription": "Get the bot to read in the users' questions",
+                "category": "Feature",
+                "priority": "High",
+                "comments": [],
+                "changes": [{
+                    "changeDescription": "Get the bot to read in the users' questions",
+                    "changeAuthor": "1705d671-8135-4e85-aa71-ba463dd9e881"
+                }]
+            }],
+            "status": "Complete"
+        }],
+        "comments": [{
+            "author": "23979fce-f352-48fc-8d29-099c788596f6",
+            "comment": "Should the bot have some kind of unique personality?",
+            "replies": []
+        }] 
+    }
+]

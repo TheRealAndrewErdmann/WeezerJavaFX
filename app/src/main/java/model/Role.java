@@ -1,3 +1,4 @@
+package model;
 /**
  * Enum representing different roles in a Scrum team.
  * @author yingdongfeng

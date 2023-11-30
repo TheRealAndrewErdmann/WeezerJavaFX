@@ -1,5 +1,5 @@
 
-
+package model;
 public class AppUI {
     private PMSoftware PMSoftware;
 

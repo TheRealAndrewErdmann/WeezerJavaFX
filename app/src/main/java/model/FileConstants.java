@@ -1,3 +1,4 @@
+package model;
 public abstract class FileConstants {
     protected static final String ID = "id";
     protected static final String FIRST_NAME = "firstName";

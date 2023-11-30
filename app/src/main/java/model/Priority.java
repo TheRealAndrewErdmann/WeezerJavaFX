@@ -1,3 +1,4 @@
+package model;
 /**
  * Enum representing the priority levels of tasks or issues.
  * @author yingdongfeng

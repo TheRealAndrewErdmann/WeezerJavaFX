@@ -1,4 +1,3 @@
-
 package model;
 public class AppUI {
     private PMSoftware PMSoftware;
@@ -45,7 +44,7 @@ public class AppUI {
                                     "description", Category.Feature, "Medium");
         Task burger = new Task(found, "Make impossible burger possible", "description", 
                                 Category.Feature, "Low");  
-        found.addTask(initialize, "Incomplete");
+        
 
         Comment avoid = new Comment("Atticus Madden", "Avoid civllians Jeff!");
         initialize.addComment(avoid);

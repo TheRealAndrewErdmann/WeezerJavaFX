@@ -1,6 +1,8 @@
 .root {
-    -fx-font-size: 75pt;
-    -fx-font-family: "Roboto";
+    -fx-font-size: 16pt;
+    -fx-font-family: "Helvetica";
+    -fx-base: #87C7D1;
+    -fx-background: #CAE8EB;
 }
 
 .button {

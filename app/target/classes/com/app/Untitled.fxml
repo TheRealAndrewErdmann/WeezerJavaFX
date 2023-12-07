@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Chat Bot                                                                               PMSoftware                                                                                   James" wrappingWidth="591.21630859375" />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Accordion>
+              <panes>
+                <TitledPane animated="false" text="Patricipants">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                </TitledPane>
+                <TitledPane animated="false" text="Projects">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                  </content>
+                </TitledPane>
+              </panes>
+            </Accordion>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="300.0" prefWidth="118.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="           To Do" wrappingWidth="95.8427734375" />
+                  <AnchorPane prefHeight="285.0" prefWidth="100.0">
+                     <children>
+                        <Text layoutX="10.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Link to new tab" wrappingWidth="91.21630859375" />
+                        <Button layoutX="23.0" layoutY="100.0" mnemonicParsing="false" text="Feature" />
+                        <RadioButton layoutX="14.0" layoutY="141.0" mnemonicParsing="false" text="CB" />
+                        <Button layoutX="13.0" layoutY="250.0" mnemonicParsing="false" text="Add a task" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="      In Progress" wrappingWidth="99.21630859375" />
+                  <AnchorPane prefHeight="285.0" prefWidth="115.0">
+                     <children>
+                        <Text layoutX="-4.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Respond to user input" wrappingWidth="118.396484375" />
+                        <Button layoutX="28.0" layoutY="100.0" mnemonicParsing="false" text="Feature" />
+                        <RadioButton layoutX="8.0" layoutY="142.0" mnemonicParsing="false" text="CB" />
+                        <Button layoutX="18.0" layoutY="251.0" mnemonicParsing="false" text="Add a task" />
+                     </children>
+                  </AnchorPane>
+               </children>
+               <HBox.margin>
+                  <Insets left="80.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="            Done" wrappingWidth="93.21630859375" />
+                  <AnchorPane prefHeight="283.0" prefWidth="111.0">
+                     <children>
+                        <Text layoutX="9.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Read user input" />
+                        <Button layoutX="24.0" layoutY="100.0" mnemonicParsing="false" text="Feature" />
+                        <RadioButton layoutX="9.0" layoutY="142.0" mnemonicParsing="false" text="CB" />
+                        <Button layoutX="12.0" layoutY="250.0" mnemonicParsing="false" text="Add a task" />
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </AnchorPane>
+               </children>
+               <HBox.margin>
+                  <Insets left="85.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

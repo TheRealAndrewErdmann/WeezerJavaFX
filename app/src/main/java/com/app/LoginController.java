@@ -1,5 +1,4 @@
-package controllers;
-
+package com.app;
 public class LoginController {
     
 }

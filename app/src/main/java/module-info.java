@@ -1,12 +1,12 @@
-module com.app {
+module library {
     //com.app = library 
 
     requires javafx.controls;
     requires javafx.fxml;
     requires json.simple;
 
-    opens com.app to javafx.fxml;
-    exports com.app;
+    opens library to javafx.fxml;
+    exports library;
 
     opens model to javafx.fxml;
     exports model;

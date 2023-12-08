@@ -19,7 +19,7 @@ public class FileLoader extends FileConstants{
         ArrayList<User> users =  new ArrayList<User>();
 
         try {
-			FileReader reader = new FileReader("JSON/userTest.json");
+			FileReader reader = new FileReader("app\\src\\main\\java\\JSON\\user.json");
 			JSONParser parser = new JSONParser();
 			JSONArray usersJSON = (JSONArray)new JSONParser().parse(reader);
 
@@ -64,7 +64,7 @@ public class FileLoader extends FileConstants{
 
 
         try {
-			FileReader reader = new FileReader("JSON/project.json");
+			FileReader reader = new FileReader("app\\src\\main\\java\\JSON\\project.json");
 			JSONParser parser = new JSONParser();
 			JSONArray projectsJSON = (JSONArray)new JSONParser().parse(reader);
 

@@ -1,4 +1,4 @@
-package library;
+package com.app;
 
 public class HomeController {
     

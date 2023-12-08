@@ -53,8 +53,13 @@ public class PMSoftware {
      * @return the user that logged in with their credentials
      */
     public User login(String username, String password) {
-        return new User("Atticus", "Madden", "Amadden", "password",
-                    "amadden@gmail.com", "803-730-4872");
+        if (userList.getUser(username) == null) {
+            return null;
+        }
+        else {
+            user = userList.getUser(username);
+            return user;
+        }
     }
 
     /**
@@ -65,8 +70,8 @@ public class PMSoftware {
      * @param phoneNumber phone number provided by the user
      * @return the user that signed up with the given information
      */
-    public User signup(String username, String password,String email, String phoneNumber) {
-        return new User("First", "Last", username, password, email, phoneNumber);
+    public User signup(String firstName, String lastName, String username, String password,String email, String phoneNumber) {
+        return new User(firstName, lastName, username, password, email, phoneNumber);
     }
 
     /**

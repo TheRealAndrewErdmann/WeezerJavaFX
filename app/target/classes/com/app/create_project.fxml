@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Text?>
-<?import java.net.*?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.ProjectsController">
    <children>
@@ -23,8 +22,6 @@
       <Text layoutX="35.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chat Bot" AnchorPane.topAnchor="140.0" />
       <Text layoutX="35.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description:  A Chat Bot AI designed for website for a business" />
       <Text layoutX="35.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Participants:  James Rogers, Samantha Jacobs, Carol Branch" />
+      <AnchorPane layoutX="182.0" layoutY="118.0" prefHeight="200.0" prefWidth="200.0" />
    </children>
-   <stylesheets>
-        <URL value="@styles.css" />
-   </stylesheets>
 </AnchorPane>

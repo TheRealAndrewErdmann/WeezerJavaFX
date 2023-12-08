@@ -1,6 +1,4 @@
 .root {
-    -fx-font-size: 16pt;
-    -fx-font-family: "Helvetica";
     -fx-base: #87C7D1;
     -fx-background: #CAE8EB;
 }
@@ -8,6 +6,11 @@
 .button {
     -fx-button-color: #078DDB;
     -fx-text-fill: white;
+}
+
+.label {
+    -fx-font-size: 16pt;
+    -fx-font-family: "Helvetica";
 }
 
 .loginLabel {

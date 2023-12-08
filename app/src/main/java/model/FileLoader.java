@@ -79,7 +79,6 @@ public class FileLoader extends FileConstants{
                 JSONArray participantsJSON = (JSONArray) projectJSON.get("participants");
                 for (int j = 0; j < participantsJSON.size(); j++) {
                     JSONObject participantJSON = (JSONObject)participantsJSON.get(j);
-                    //JSONObject userListJSON = (JSONObject)usersHashJson.get(i);
                     String role = (String)participantJSON.get("role");
                     participantsMap.put(role, userlist);
                 }
@@ -103,13 +102,13 @@ public class FileLoader extends FileConstants{
                         //Read in the array of comments and replies on each task
                         JSONArray taskCommentsJSON = (JSONArray) projectJSON.get("comments");
                         for (int m = 0; m < taskComments.size(); m++) {
-                            JSONObject taskCommentJSON = (JSONObject)taskCommentsJSON.get(i);
+                            JSONObject taskCommentJSON = (JSONObject)taskCommentsJSON.get(m);
                             String author = (String)taskCommentJSON.get("author");
                             String comment = (String)taskCommentJSON.get("comment");
                             taskComments.add(new Comment(author, comment));
 
                             JSONArray taskRepliesJSON = (JSONArray) projectJSON.get("replies");
-                            for (int n = 0; n < tasks.size(); n++) {
+                            for (int n = 0; n < taskReplies.size(); n++) {
                                 JSONObject taskReplyJSON = (JSONObject)taskRepliesJSON.get(i);
                                 String authorReply = (String)taskReplyJSON.get("author");
                                 String reply = (String)taskReplyJSON.get("comment");

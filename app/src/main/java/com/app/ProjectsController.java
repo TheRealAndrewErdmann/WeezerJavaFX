@@ -9,4 +9,9 @@ public class ProjectsController {
     private void switchToCreateProject() throws IOException {
         App.setRoot("home");
     }
+
+    @FXML
+    private void switchToScrumBoard() throws IOException {
+        App.setRoot("home");
+    }
 }

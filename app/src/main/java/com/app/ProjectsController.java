@@ -7,11 +7,11 @@ public class ProjectsController {
 
     @FXML
     private void switchToCreateProject() throws IOException {
-        App.setRoot("home");
+        App.setRoot("createProject");
     }
 
     @FXML
     private void switchToScrumBoard() throws IOException {
-        App.setRoot("home");
+        App.setRoot("Chat Bot");
     }
 }

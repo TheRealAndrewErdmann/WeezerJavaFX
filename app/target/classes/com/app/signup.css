@@ -1,0 +1,17 @@
+#title {
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+    -fx-font-family: "Helvetica";
+    -fx-text-align: center;
+}
+
+#signuplabel {
+    -fx-background-color: #63AAAE;
+    -fx-text-fill: white;
+    -fx-text-align: center;
+}
+
+#signupbutton {
+    -fx-button-color: #078DDB;
+    -fx-text-fill: white;
+}

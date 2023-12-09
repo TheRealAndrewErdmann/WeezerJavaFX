@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.ProjectsController">
+   <children>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="10.0" prefHeight="43.0" prefWidth="640.0" text="PMSoftware" textAlignment="CENTER" />
+      <TextField layoutX="25.0" layoutY="65.0" maxWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="Search" AnchorPane.leftAnchor="25.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <Text layoutX="25.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="projects" text="Projects" AnchorPane.leftAnchor="25.0" />
+      <Button layoutX="457.0" layoutY="91.0" mnemonicParsing="false" onAction="#switchToCreateProject" prefHeight="36.0" prefWidth="145.0" text="Create New Project" AnchorPane.rightAnchor="25.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#84afd7" height="100.0" layoutX="25.0" layoutY="150.0" onMouseClicked="#switchToScrumBoard" stroke="BLACK" strokeType="INSIDE" width="590.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" />
+      <Text fill="WHITE" layoutX="35.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chat Bot" AnchorPane.topAnchor="156.0" />
+      <Text fill="WHITE" layoutX="35.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description:  A Chat Bot AI designed for website for a business" />
+      <Text fill="WHITE" layoutX="35.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Participants:  James Rogers, Samantha Jacobs, Carol Branch" />
+   </children>
+   <stylesheets>
+        <URL value="@styles.css" />
+   </stylesheets>
+</AnchorPane>

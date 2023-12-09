@@ -92,7 +92,7 @@
                   </AnchorPane>
                </children>
                <HBox.margin>
-                  <Insets left="85.0" />
+                  <Insets left="86.0" />
                </HBox.margin>
             </VBox>
          </children>

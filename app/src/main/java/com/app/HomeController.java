@@ -9,4 +9,9 @@ public class HomeController {
     private void switchToLogin() throws IOException {
         App.setRoot("login");
     }
+
+    @FXML
+    private void switchToSignup() throws IOException {
+        App.setRoot("signup");
+    }
 }

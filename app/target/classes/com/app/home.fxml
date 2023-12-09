@@ -9,9 +9,9 @@
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.PrimaryController">
    <children>
       <Label text="PMSoftware" />
-      <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Log in" />
+      <Button fx:id="LogIn" onAction="#switchToLogin" text="Log in" />
       <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Or" />
-      <Button mnemonicParsing="false" text="Sign up" />
+      <Button fx:id="SignUp" mnemonicParsing="false" onAction="#switchToSignup" text="Sign up" />
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

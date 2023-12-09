@@ -3,30 +3,36 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import java.net.*?>
 
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.SignUpController">
-   <children>
-      <Label id="title" text="PMSoftware" />
-      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="300.0" spacing="10.0">
+<Pane  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.SignupController">   
+<children>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="10.0" prefHeight="43.0" prefWidth="640.0" text="PMSoftware" textAlignment="CENTER"/>
+      <Pane  prefHeight="400.0" prefWidth="300.0">
          <children>
-            <Label alignment="CENTER" id="signuplabel" text="Sign Up" />
-            <TextField id="firstname" fx:id="firstname" maxWidth="-Infinity" promptText="First Name" />
-            <TextField id="lastname" fx:id="lastname" maxWidth="-Infinity" promptText="Last Name" />
-            <TextField id="email" fx:id="email" maxWidth="-Infinity" promptText="Email Address" />
-            <TextField id="phonenum" fx:id="phonenum" maxWidth="-Infinity" promptText="Phone Number" />
-            <TextField id="username" fx:id="username" maxWidth="-Infinity" promptText="Username" />
-            <TextField id="password" fx:id="password" maxHeight="-Infinity" maxWidth="-Infinity" promptText="Password" />
-            <Button fx:id="signupbutton" maxWidth="-Infinity" onAction="#switchToProjects" text="Sign Up" />
+            <Label alignment="CENTER" layoutX="-1.0" layoutY="70.0" prefHeight="43.0" prefWidth="640.0" text="Sign Up" textAlignment="CENTER"/>
+            <TextField id="firstname" fx:id="firstname" maxWidth="-Infinity" promptText="First Name" layoutX="245.0" layoutY="120"/>
+            <TextField id="lastname" fx:id="lastname" maxWidth="-Infinity" promptText="Last Name" layoutX="245.0" layoutY="160"/>
+            <TextField id="email" fx:id="email" maxWidth="-Infinity" promptText="Email Address" layoutX="245.0" layoutY="200"/>
+            <TextField id="phonenum" fx:id="phonenum" maxWidth="-Infinity" promptText="Phone Number" layoutX="245.0" layoutY="240"/>
+            <TextField id="username" fx:id="username" maxWidth="-Infinity" promptText="Username" layoutX="245.0" layoutY="280"/>
+            <TextField id="password" fx:id="password" maxHeight="-Infinity" maxWidth="-Infinity" promptText="Password" layoutX="245.0" layoutY="320"/>
+            <Button fx:id="signupbutton" minWidth="150" maxWidth="-Infinity" onAction="#switchToProjects" text="Sign Up" layoutX="245.0" layoutY="360"/>
          </children>
-      </VBox>
+      </Pane>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
    </padding>
    <stylesheets>
-      <URL value="@signup.css" />
+      <URL value="@styles.css" />
    </stylesheets>
-</VBox>
+</Pane>

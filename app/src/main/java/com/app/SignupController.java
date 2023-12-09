@@ -6,7 +6,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import model.User;
 
-public class SignUpController {
+public class SignupController {
 
     @FXML private TextField firstname;
     @FXML private TextField lastname;
